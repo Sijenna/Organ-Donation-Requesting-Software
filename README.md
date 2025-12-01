@@ -13,7 +13,7 @@ A Python + MySQL based Organ Donation and Matching Management System designed to
 
 Below are screenshots of the working Organ Donation Matching System:
 
-![Outputs](Outputs_ODMS_Screenshots.txt)
+[Outputs](Outputs_ODMS_Screenshots.txt)
 
 
 • Project Overview
