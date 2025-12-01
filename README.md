@@ -7,7 +7,7 @@ A Python + MySQL based Organ Donation and Matching Management System designed to
 
 ## 📊 System Flowchart
 
-![Flowchart](Flow Chart.png)
+![Flowchart](Flow%20Chart.png)
 
 ## 📸 Program Output Screenshots
 
