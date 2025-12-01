@@ -8,6 +8,9 @@ A Python + MySQL based console application for managing organ donors, recipients
 This project is ideal for academic submissions, internships, and portfolio showcasing.
 
 ---
+<p align="center">
+  <img src="Logo.png" width="120"/>
+</p>
 ## 📊 System Flowchart
 ![Flowchart](FlowChart.png)
 
