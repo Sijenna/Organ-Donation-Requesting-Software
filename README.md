@@ -5,6 +5,11 @@ Organ Donation Matching System (ODMS)
 
 A Python + MySQL based Organ Donation and Matching Management System designed to assist hospitals, donors, and recipients by streamlining organ requests, donor registration, and automated organ-matching logic.
 
+## 📊 System Flowchart
+
+![Flowchart](Flow Chart.png)
+
+
 • Project Overview
 
 The Organ Donation Matching System (ODMS) is a console-based application developed using:
