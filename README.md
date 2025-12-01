@@ -8,16 +8,11 @@ A Python + MySQL based console application for managing organ donors, recipients
 This project is ideal for academic submissions, internships, and portfolio showcasing.
 
 ---
+## 📊 System Flowchart
+![Flowchart](FlowChart.png)
 
-📊 System Flowchart
-
-"Flowchart" (Flow%20Chart.png)
-
----
-
-📸 Program Output Screenshots
-
-"View Outputs" (Outputs_ODMS_Screenshots.pdf)
+## 📸 Program Output Screenshots
+[Outputs](Outputs_ODMS_Screenshots.pdf)
 
 ---
 
