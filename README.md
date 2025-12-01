@@ -12,6 +12,7 @@ This project is ideal for academic submissions, internships, and portfolio showc
   <img src="Logo.png" width="120"/>
 </p>
 ## 📊 System Flowchart
+
 ![Flowchart](FlowChart.png)
 
 ## 📸 Program Output Screenshots
