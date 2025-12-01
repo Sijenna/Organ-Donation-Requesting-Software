@@ -1,107 +1,112 @@
 # Organ-Donation-Matching-System
 A Python + MySQL based organ donation and matching management system.
 
-Organ Donation Matching System (ODMS)
+* Organ Donation Requesting & Matching System (ODMS)
 
-A Python + MySQL based Organ Donation and Matching Management System designed to assist hospitals, donors, and recipients by streamlining organ requests, donor registration, and automated organ-matching logic.
+A Python + MySQL based console application for managing organ donors, recipients, hospital-wise organ requests, and automated organ matching.
 
-## 📊 System Flowchart
-
-![Flowchart](Flow%20Chart.png)
-
-## 📸 Program Output Screenshots
-
-Below are screenshots of the working Organ Donation Matching System:
-
-[Outputs](Outputs_ODMS_Screenshots.pdf)
-
-
-• Project Overview
-
-The Organ Donation Matching System (ODMS) is a console-based application developed using:
-
-- Python
-- MySQL Database
-- mysql.connector
-- Modular function-based approach
-- Dynamic hospital-specific table creation
-
-The system supports:
-
-- Donor registration
-- Recipient (patient) registration
-- Organ request generation
-- Compatibility checking (blood group based)
-- Automated organ-matching
-- Notifications for matched donors
-- Hospital-wise data separation
+This project is ideal for academic submissions, internships, and portfolio showcasing.
 
 ---
 
-• Key Features
+📊 System Flowchart
 
-* Donor Module
-
-- Register donors with personal, medical, and organ details
-- Store donor info in hospital-specific tables
-- Validate blood group, organ type, age, etc.
-
-* Recipient Module
-
-- Register patients requiring an organ
-- Raise an organ request
-- Connect patient details to organ type
-
-* Organ Matching
-
-- Automated match check based on:
-   - Blood group compatibility
-   - Organ type
-   - Availability
-- Sends simulated “notification” when a match is found
-
-* Hospital-wise Database Structure
-
-Each hospital gets:
-
-- A donor table
-- A recipient table
-- A request table
-- A confirmation table
-
-This ensures data separation across hospitals.
+"Flowchart" (Flow%20Chart.png)
 
 ---
 
-• Tech Stack
+📸 Program Output Screenshots
+
+"View Outputs" (Outputs_ODMS_Screenshots.pdf)
+
+---
+
+📌 Project Overview
+
+The Organ Donation Matching System (ODMS) is designed to assist:
+
+- 🏥 Hospitals
+- 🩸 Donors
+- ❤️ Recipients
+
+by simplifying:
+
+✔ Donor registration
+✔ Recipient registration
+✔ Hospital-wise organ requesting
+✔ Automated organ matching based on blood group + organ type
+✔ Dynamic table creation per hospital
+
+---
+
+⭐ Key Features
+
+🧑‍⚕️ Donor Module
+
+- Register donors with personal details, blood group, organ type, age, and contact.
+- Store records inside hospital-specific donor tables.
+
+🧑‍⚕️ Recipient Module
+
+- Register patients requiring an organ.
+- Validate data before submitting requests.
+
+🔄 Organ Matching System
+
+Automatically checks for a compatible donor based on:
+
+- Blood group compatibility
+- Organ type match
+- Donor availability
+
+Displays a simulated notification when a match is found.
+
+🏥 Hospital-Wise Data Separation
+
+Each hospital automatically gets its own tables:
+
+donors_<hospital>
+recipients_<hospital>
+requests_<hospital>
+confirmation_<hospital>
+
+This ensures clean, isolated data for each hospital.
+
+---
+
+🛠 Tech Stack
 
 Component| Technology
 Backend| Python 3
 Database| MySQL
 Connector| mysql.connector
-Platform| Console-based application
+Platform| Console Application
 
 ---
 
-• Project Structure
+📂 Project Structure
 
-Organ-Donation-Matching-System/
+Organ-Donation-Requesting-Software/
 │
-├── Organ-Donation.py        # Main Python program
-├── ODMS.sql                 # Database + table creation script
+├── Organ-Donation.py        # Main Python Program
+├── ODMS.sql                 # SQL database & table script
+├── Outputs_ODMS_Screenshots.pdf
+├── Flow Chart.png
 └── README.md                # Documentation
 
 ---
 
-• How to Run the Project
+▶ How to Run the Project
 
-* Install Requirements
+1️⃣ Install Dependencies
 
 Install MySQL connector:
 
 pip install mysql-connector-python
 
-* Import the SQL Database
+---
+
+2️⃣ Import SQL Database
 
 Open MySQL and run:
 
@@ -109,12 +114,14 @@ source ODMS.sql;
 
 This will create:
 
-- Database → ODMS
-- Global tables → HOSPITALS, REQUESTS, CONFIRMATION
+- Database: ODMS
+- Required global tables
 
-* Configure MySQL Login
+---
 
-Inside "Organ-Donation.py", update:
+3️⃣ Configure MySQL Login
+
+Inside Organ-Donation.py, update:
 
 x = ms.connect(
     host="localhost",
@@ -123,36 +130,38 @@ x = ms.connect(
     database="ODMS"
 )
 
-* Run the Program
+---
+
+4️⃣ Run the Program
 
 python Organ-Donation.py
 
 ---
 
-• Sample Output (Preview)
+📝 Sample Output (Preview)
 
-----------------------------------------
-   ORGAN DONATION MATCHING SYSTEM  
-----------------------------------------
+-----------------------------------------
+      ORGAN DONATION MATCHING SYSTEM
+-----------------------------------------
 
-1. Donor Registration
-2. Recipient Registration
-3. Organ Request
-4. Match Organ
-5. Exit
+1. Donor Registration  
+2. Recipient Registration  
+3. Organ Request  
+4. Match Organ  
+5. Exit  
 Enter your choice:
 
 ---
 
-📁 Database Summary
+🗄 Database Summary
 
-Global Tables Created:
+Global Tables
 
 - HOSPITALS
 - REQUESTS
 - CONFIRMATION
 
-Per-Hospital Dynamic Tables:
+Per-Hospital Tables
 
 - donors_<hospital>
 - recipients_<hospital>
@@ -163,23 +172,26 @@ Per-Hospital Dynamic Tables:
 
 🎯 Purpose of the Project
 
-This system is ideal for:
+This project is ideal for:
 
-- College academic projects
-- Real-world hospital workflow simulation
-- Internship portfolio projects
-- Beginner to intermediate Python + MySQL practice
+- 🎓 College academic submissions
+- 🏥 Real-world hospital workflow simulation
+- 💼 Internship portfolio showcasing
+- 🐍 Beginners learning Python + MySQL
 
 ---
 
 👩‍💻 Developer
 
 Sijenna J
+
 Python & MySQL Developer
 Sathyabama University
 
 ---
 
-⭐ Show Your Support
+⭐ Support
 
-If you like this project, give it a star ⭐ on GitHub!
+If you find this project useful, give it a star ⭐ on GitHub!
+
+
